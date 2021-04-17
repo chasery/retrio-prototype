@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <header class="Header" role="banner">
+      <div class="Header__wrapper">
+        <h1 class="Header__title"><a href="boards.html">Retrio</a></h1>
+        <nav class="Nav" role="navigation">
+          <ul>
+            <li>
+              <a href="/boards.html">Boards</a>
+            </li>
+            <li>
+              <a href="/teams.html">Teams</a>
+            </li>
+            <li><a href="/">Sign Out</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main role="main">
+      <section class="Boards">
+        <div class="Boards__wrapper">
+          <div class="Boards__header">
+            <h2>Team Name Pending</h2>
+            <a style="padding-right: 0.5rem" href="/edit-team.html">Edit</a>
+            <a href="#">Delete</a>
+          </div>
+          <ul class="TeamsList">
+            <li class="Team">
+              <div class="Team__info">
+                <h3 class="Team__name">Ryan Chase</h3>
+                <h3 class="Team__email">ryan@chasery.com</h3>
+                <div class="Team__role">Owner</div>
+              </div>
+            </li>
+            <li class="Team">
+              <div class="Team__info">
+                <h3 class="Team__name">Fernando Fishman IV</h3>
+                <h3 class="Team__email">ryan@chasery.com</h3>
+                <div class="Team__role">Contributor</div>
+              </div>
+              <div class="Team__controls">
+                <a class="Team__leave" href="#">Remove</a>
+              </div>
+            </li>
+            <li class="Team">
+              <div class="Team__info">
+                <h3 class="Team__name">Sarah Connor</h3>
+                <h3 class="Team__email">ryan@chasery.com</h3>
+                <div class="Team__role">Contributor</div>
+              </div>
+              <div class="Team__controls">
+                <a class="Team__leave" href="#">Remove</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
