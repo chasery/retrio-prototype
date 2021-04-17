@@ -88,12 +88,6 @@ ul > li {
   margin-left: 1rem;
 }
 
-.Hero,
-.Boards,
-.Clothing {
-  padding-top: 3.5rem;
-}
-
 .Hero {
   position: relative;
   z-index: 2;
@@ -115,6 +109,7 @@ ul > li {
 }
 
 .Form {
+  min-width: 18rem;
   padding: 1.5rem;
   background-color: #fff;
   box-shadow: 0 0.0625rem 0.0625rem #0000001c;
@@ -144,6 +139,17 @@ ul > li {
 }
 .AppInfo__wrapper img {
   margin-bottom: 0.5rem;
+}
+
+.Boards__header {
+  display: flex;
+}
+.Boards__header > h2 {
+  flex-grow: 1;
+}
+.Boards__header > a {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .BoardsList {

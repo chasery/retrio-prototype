@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Retrio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <header class="Header" role="banner">
+      <div class="Header__wrapper">
+        <h1 class="Header__title"><a href="/">Retrio</a></h1>
+        <nav class="Nav" role="navigation">
+          <ul>
+            <li>
+              <a href="/boards.html">Boards</a>
+            </li>
+            <li>
+              <a href="/teams.html">Teams</a>
+            </li>
+            <li><a href="/">Sign Out</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main role="main">
+      <section class="FormWrapper">
+        <form id="EditBoard" class="Form">
+          <h2>Edit Board</h2>
+          <p>Edit the following retrio board.</p>
+          <div class="Form__field">
+            <label for="team">Team*</label>
+            <select id="team">
+              <option value="">Select Team</option>
+              <option value="1">Deploy Happy</option>
+              <option value="2">Someone Else Broke It</option>
+              <option value="3">Team Name Pending</option>
+            </select>
+          </div>
+          <div class="Form__field">
+            <label for="name">Board Name</label>
+            <input type="text" id="name" />
+          </div>
+          <button>Cancel</button>
+          <button>Edit Board</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
