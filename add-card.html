@@ -29,24 +29,31 @@
     </header>
     <main role="main">
       <section class="FormWrapper">
-        <form id="EditBoard" class="Form">
-          <h2>Edit Board</h2>
-          <p>Make changes to the Retrio board.</p>
+        <form id="AddBoard" class="Form">
+          <h2>Add Card</h2>
+          <p>
+            Add a card to the <strong>Team Name Pending Retrio Board</strong>.
+          </p>
           <div class="Form__field">
-            <label for="team">Team*</label>
+            <label for="team">Category*</label>
             <select id="team">
-              <option value="">Select Team</option>
-              <option value="1">Deploy Happy</option>
-              <option value="2">Someone Else Broke It</option>
-              <option value="3">Team Name Pending</option>
+              <option value="">Select Category</option>
+              <option value="1">What went well</option>
+              <option value="2">What didn't go well</option>
+              <option value="3">To try</option>
+              <option value="3">Shout outs</option>
             </select>
           </div>
           <div class="Form__field">
-            <label for="name">Board Name</label>
+            <label for="name">Title</label>
             <input type="text" id="name" />
           </div>
+          <div class="Form__field">
+            <label for="t">Text*</label>
+            <textarea id="t" rows="6"></textarea>
+          </div>
           <button>Cancel</button>
-          <button>Edit Board</button>
+          <button>Add Card</button>
         </form>
       </section>
     </main>
