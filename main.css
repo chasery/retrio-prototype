@@ -148,8 +148,6 @@ ul > li {
   flex-grow: 1;
 }
 .Boards__header > a {
-  font-size: 1.25rem;
-  font-weight: bold;
 }
 
 .BoardsList {
